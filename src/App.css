@@ -1,0 +1,47 @@
+.span {
+  color: blue;
+}
+.img {
+  width: 410px;
+  height: 350px;
+  object-fit: cover;
+}
+.card {
+  width: 410px;
+}
+.font {
+  font-size: 20px;
+}
+.list {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+  justify-items: center;
+}
+
+.Add {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  gap: 10px;
+  max-width: 500px;
+  margin: 10px auto;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+}
+.homeimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.welcome {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 80px;
+}
